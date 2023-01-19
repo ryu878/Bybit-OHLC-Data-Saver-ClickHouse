@@ -5,7 +5,7 @@ interval = 1
 limit = 200
 from_time = 1654104498
 
-# Clickhouse Database Settings
+# ClickHouse Database Settings
 host = 'localhost'
 password = '1qa2ws3ed'
 user = 'default'
