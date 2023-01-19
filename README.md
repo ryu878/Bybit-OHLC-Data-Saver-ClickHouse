@@ -1,6 +1,8 @@
 # Bybit OHLC Data Saver ClickHouse
 Python script - Bybit OHLC Data Saver using ClickHouse (ultra-fast solution for generating analytics)
 
+Script will get OHLC data from Bybit REST API, save to ClickHouse and then get in from ClickHouse back in JSON format.
+
 [![Latest release](https://badgen.net/github/release/Naereen/Strapdown.js)](https://aadresearch.xyz)
 
 ## Disclaimer
