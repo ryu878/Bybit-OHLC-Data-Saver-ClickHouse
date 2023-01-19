@@ -25,7 +25,7 @@
 # pip install pandas
 # pip install pybit
 
-
+import json
 from config import *
 import pandas as pd
 from pybit import inverse_perpetual
@@ -82,5 +82,6 @@ print(columns)
 client.execute(f"INSERT INTO {table} VALUES", df.to_dict('records'), types_check=True)
 
 clickhouse_data = client.execute(f"SELECT * FROM {table}")
+clickhouse_data = json.dumps(clickhouse_data)
 
 print(clickhouse_data)
