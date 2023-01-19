@@ -37,7 +37,7 @@ And run it:
 
 Next create python virtual environment and activate it:
 
-<code>python3 -m venv .pb-ch && source /.pb-ch/bin/activate</code>
+<code>python3 -m venv .pb-ch && source .pb-ch/bin/activate</code>
 
 And then install necessary libraries:
 
