@@ -17,10 +17,12 @@ Under no circumstances will we be responsible or liable for any claims, damages,
 First install ClickHoouse:
 
 <code>sudo apt-get install apt-transport-https ca-certificates dirmngr</code>
+
 <code>sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv E0C56BD4</code>
 
 <code>echo "deb https://repo.clickhouse.tech/deb/stable/ main/" | sudo tee \
    /etc/apt/sources.list.d/clickhouse.list</code>
+   
 <code>sudo apt-get update</code>
 
 <code>sudo apt-get install -y clickhouse-server clickhouse-client</code>
@@ -28,6 +30,7 @@ First install ClickHoouse:
 And run it:
 
 <code>sudo service clickhouse-server start</code>
+
 <code>clickhouse-client</code>
 
 Next create python virtual environment and activate it:
@@ -37,7 +40,9 @@ Next create python virtual environment and activate it:
 And then install necessary libraries:
 
 <code>pip install clickhouse-driver</code>
+
 <code>pip install pandas</code>
+
 <code>pip install pybit</code>
 
 ## Contacts
