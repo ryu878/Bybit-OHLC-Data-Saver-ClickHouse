@@ -16,7 +16,7 @@ Under no circumstances will we be responsible or liable for any claims, damages,
 
 First install ClickHoouse:
 
-sudo apt-get install apt-transport-https ca-certificates dirmngr
+<code>sudo apt-get install apt-transport-https ca-certificates dirmngr</code>
 sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv E0C56BD4
 
 echo "deb https://repo.clickhouse.tech/deb/stable/ main/" | sudo tee \
