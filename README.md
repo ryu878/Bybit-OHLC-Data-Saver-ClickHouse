@@ -12,8 +12,33 @@ If you intend to use real money, use it at your own risk.
 Under no circumstances will we be responsible or liable for any claims, damages, losses, expenses, costs or liabilities of any kind, including but not limited to direct or indirect damages for loss of profits.
 <hr>
 
-## ToDo
--
+## Install
+
+First install ClickHoouse:
+
+sudo apt-get install apt-transport-https ca-certificates dirmngr
+sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv E0C56BD4
+
+echo "deb https://repo.clickhouse.tech/deb/stable/ main/" | sudo tee \
+   /etc/apt/sources.list.d/clickhouse.list
+sudo apt-get update
+
+sudo apt-get install -y clickhouse-server clickhouse-client
+
+And run it:
+
+sudo service clickhouse-server start
+# clickhouse-client
+
+Next create python virtual environment and activate it:
+
+python3 -m venv .pb-ch && source /.pb-ch/bin/activate
+
+And then install necessary libraries:
+
+pip install clickhouse-driver
+pip install pandas
+pip install pybit
 
 ## Contacts
 Feel free to contact me via Discord: ryuryu#4087
