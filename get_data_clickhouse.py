@@ -1,4 +1,4 @@
-# Ryuryu's Bybit OHCL Data Saver 
+# Ryuryu's Bybit OHLC Data Saver 
 # Clickhouse Edition (Production Mode #6973)
 # -------------------------------------------
 # (C) 2023 Ryan Hayabusa 
