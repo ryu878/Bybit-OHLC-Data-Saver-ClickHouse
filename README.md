@@ -1,7 +1,7 @@
-# Bybit OHLC Data Saver ClickHouse
-Python script - Bybit OHLC Data Saver using ClickHouse (ultra-fast solution for generating analytics)
+# Bybit Trades Data Saver ClickHouse
+Python script - Bybit Trades Data Saver using ClickHouse (ultra-fast solution for generating analytics)
 
-Script will take the OHLC data from Bybit REST API, save it to ClickHouse and then take it back from ClickHouse in JSON format.
+Script will take the Trades data from Bybit REST API, save it to ClickHouse and then take it back from ClickHouse in JSON format.
 
 [![Latest release](https://badgen.net/github/release/Naereen/Strapdown.js)](https://aadresearch.xyz)
 
