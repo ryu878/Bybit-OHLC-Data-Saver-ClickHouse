@@ -8,7 +8,7 @@ Script will take the Trades data from Bybit REST API, save it to ClickHouse and 
 If you intend to use real money, use it at your own risk.
 
 Under no circumstances will we be responsible or liable for any claims, damages, losses, expenses, costs or liabilities of any kind, including but not limited to direct or indirect damages for loss of profits.
-<hr>
+
 
 ## Install
 
